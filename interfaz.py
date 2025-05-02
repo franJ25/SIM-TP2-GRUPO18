@@ -243,7 +243,7 @@ class RandomGenApp(tk.Tk):
             self.ax.set_ylabel("Frecuencia Observada")
             self.ax.set_xticks(limites);
             self.ax.tick_params(axis='x', rotation=45, labelsize=8)
-            self.ax.xaxis.set_major_formatter(plt.FormatStrFormatter('%.3f'))
+            self.ax.xaxis.set_major_formatter(plt.FormatStrFormatter('%.4f'))
             self.ax.grid(axis='y', linestyle='--', alpha=0.6);
             self.fig.tight_layout()
             self.canvas.draw()
