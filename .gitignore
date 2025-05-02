@@ -1,0 +1,8 @@
+# IDE configuration files (JetBrains)
+.idea/
+
+# Python bytecode cache
+__pycache__/
+
+# Optional: Also ignore individual .pyc files (older Python versions might create these)
+*.pyc
